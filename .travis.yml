@@ -1,8 +1,10 @@
 language: node_js
 node_js: 
 - 12.6.0
+cashe: npm
 instal:
   - yarn install
+  - cypress install
 script:
   - yarn test
   - yarn build
