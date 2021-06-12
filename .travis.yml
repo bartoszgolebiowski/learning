@@ -3,7 +3,7 @@ node_js:
 - 11.6.0
 cashe: npm
 instal:
-  - yarn ci
+  - yarn install
 script:
   - yarn test
   - yarn build
